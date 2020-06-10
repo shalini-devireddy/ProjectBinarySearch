@@ -19,12 +19,12 @@ public class BinarySearch {
              }
           }
        }
-       for (i=0;i<numbers.length;i++){
-          System.out.println("now the array is sorted :"+numbers[i]);
-       }
+//       for (i=0;i<numbers.length;i++){
+//          System.out.println("now the array is sorted :"+numbers[i]);
+//       }
        for (i=0;i<numbers.length;i++){
           sortedArray[i]=numbers[i];
-          System.out.println("the sorted array is : "+sortedArray[i]);
+//          System.out.println("the sorted array is : "+sortedArray[i]);
        }
     }
     public int numberSearch(String number) throws NotEvenANumber, CanNotFindNumber {
