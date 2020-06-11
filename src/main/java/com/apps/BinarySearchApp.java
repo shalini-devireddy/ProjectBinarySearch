@@ -118,6 +118,7 @@ public class BinarySearchApp {
             failed++;
         }
 
+        System.out.println("::::Test Case Report::::::::::::");
         System.out.println(":::::::::::::::::::::::::::::::::::");
         System.out.println(":::Total Passed: "+passed);
         System.out.println(":::Total Failed: "+failed);
